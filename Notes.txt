@@ -1,0 +1,20 @@
+**Problems with RestAPI:
+-- Over fetching: get more information from the server than the
+    information you asked for.
+    --> with graph -- we get what we described
+
+-- Under Fetching: have to make other requests to accomplish one thing right.
+    --> with graph - need only one query.
+
+-- install three packages: 
+$npm install babel-cli babel-preset-env babel-preset-stage-3 --save-dev
+/.babelrc:
+{
+    "presets": ["env", "stage-3"]
+}
+
+**********************************
+schema: description of the data is going to be sent or want to retrieve.
+
+mutate: when we make a operation that changes the data.
+query: when we get data - make post request - (data is in the body)
